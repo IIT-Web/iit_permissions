@@ -1,0 +1,7 @@
+name = IIT Custom Permissions
+description = Provides Custom IIT Permissions
+
+core = 7.x
+package = Illinois Institute of Technology
+
+version = 7.x-1.0

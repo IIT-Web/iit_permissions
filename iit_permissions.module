@@ -1,0 +1,22 @@
+<?php
+
+/**
+* @file
+* Provides IIT custom permissions
+*/
+
+
+/* ***************************************** */
+/* Hook Implementations                      */
+/* ***************************************** */
+
+/**
+ * Implements hook_permission().
+ */
+function iit_permissions_permission() {
+  return array(
+    'use workbench_moderation ready to publish tab' => array(
+      'title' => t('Use "Ready to publish" workbench tab'),
+    ),
+  );
+}
